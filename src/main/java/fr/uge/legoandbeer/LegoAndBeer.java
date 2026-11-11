@@ -46,7 +46,10 @@ public final class LegoAndBeer {
 		}).max(Comparator.comparingLong(lego -> lego.name().length() *20)).ifPresent(lego -> IO.println("max lego: " + lego.name()));
 	}
 	
-	
+	public static int test() {
+		int i = 5;
+		return 2;
+	}
 	
 	public static void main(String[] args) throws IOException {
 		if (args.length != 1) {
